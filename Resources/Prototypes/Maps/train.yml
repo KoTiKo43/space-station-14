@@ -52,7 +52,7 @@
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 4, 4 ]
             SecurityCadet: [ 2, 3 ]
-            #Lawyer: [ 1, 2 ] # Corvax-IAA
+            Lawyer: [ 1, 2 ]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 2, 2 ]
@@ -63,3 +63,8 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             Borg: [ 2, 2 ]
+            #seniors
+            SeniorPhysician: [ 1, 1 ]
+            SeniorResearcher: [ 1, 1 ]
+            SeniorEngineer: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]

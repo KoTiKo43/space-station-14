@@ -1,13 +1,12 @@
 - type: job
   id: Lawyer
-  name: job-name-lawyer
-  description: job-description-lawyer
+  name: адвокат
+  description: Защищайте подсудимых на допросе, следите за соблюдением силами службы безопасности КЗ и ОПРС, помогайте экипажу в заполнении документов
   playTimeTracker: JobLawyer
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # 10 hrs
   startingGear: LawyerGear
-  setPreference: false # Corvax-IAA
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop
   access:

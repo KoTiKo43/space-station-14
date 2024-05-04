@@ -6,3 +6,11 @@
   - PsychologistSatchel
   - PsychologistDuffel
 
+#- type: loadoutGroup
+#  id: PilotOuterClothing
+#  name: Пилот, верхняя одежда
+#  loadouts:
+#  - ArmorVest
+#  - ArmorVestSlim
+#  - OuterArmorVestSec # Почему-то не видит
+#  - SecurityOfficerWintercoat

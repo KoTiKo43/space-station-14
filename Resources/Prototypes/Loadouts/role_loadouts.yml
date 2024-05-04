@@ -206,6 +206,17 @@
   - Trinkets
 
 - type: roleLoadout
+  id: JobSeniorEngineer
+  groups:
+  - SeniorEngineerHead
+  - SeniorEngineerJumpsuit
+  - StationEngineerBackpack
+  - StationEngineerClothing
+  - StationEngineerShoes
+  - SeniorEngineerID
+  - Trinkets
+
+- type: roleLoadout
   id: JobAtmosphericTechnician
   groups:
   - AtmosphericTechnicianJumpsuit
@@ -239,6 +250,20 @@
   - ScientistGloves
   - ScientistShoes
   - ScientistPDA
+  - Glasses
+  - Trinkets
+
+- type: roleLoadout
+  id: JobSeniorResearcher
+  groups:
+  - SeniorResearcherHead
+  - ScientistNeck
+  - SeniorResearcherJumpsuit
+  - ScientistBackpack
+  - SeniorResearcherOuterClothing
+  - SeniorResearcherGloves
+  - ScientistShoes
+  - SeniorResearcherPDA
   - Glasses
   - Trinkets
 
@@ -287,6 +312,18 @@
   - Trinkets
 
 - type: roleLoadout
+  id: JobSeniorOfficer
+  groups:
+  - SecurityHead
+  - SeniorOfficerJumpsuit
+  - SecurityBackpack
+  - SecurityOuterClothing
+  - SecurityShoes
+  - SeniorOfficerPDA
+  - SecurityBelt
+  - Trinkets
+
+- type: roleLoadout
   id: JobDetective
   groups:
   - DetectiveHead
@@ -330,6 +367,20 @@
   - MedicalDoctorOuterClothing
   - MedicalShoes
   - MedicalDoctorPDA
+  - Glasses
+  - Trinkets
+
+- type: roleLoadout
+  id: JobSeniorPhysician
+  groups:
+  - SeniorPhysicianHead
+  - MedicalMask
+  - SeniorPhysicianJumpsuit
+  - MedicalGloves
+  - MedicalBackpack
+  - SeniorPhysicianOuterClothing
+  - MedicalShoes
+  - SeniorPhysicianPDA
   - Glasses
   - Trinkets
 

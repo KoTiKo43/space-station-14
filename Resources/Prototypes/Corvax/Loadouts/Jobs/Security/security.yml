@@ -6,3 +6,12 @@
   id: JackSecBoots
   equipment:
     shoes: ClothingShoesBootsJackSecFilled
+
+- type: loadout
+  id: OuterVestArmorSec
+  equipment: OuterVestArmorSec
+
+- type: startingGear
+  id: OuterVestArmorSec
+  equipment:
+    outerClothing: ClothingOuterVestArmorSec

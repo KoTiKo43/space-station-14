@@ -5,3 +5,16 @@
   - LawyerJumpsuit
   - CommonBackpack
   - Trinkets
+
+- type: roleLoadout
+  id: JobPilot
+  groups:
+  - SecurityHead
+  - PilotNeck
+  - PilotJumpsuit
+  - SecurityBackpack
+  - SecurityOuterClothing
+  - SecurityShoes
+  - PilotPDA
+  - SecurityBelt
+  - Trinkets

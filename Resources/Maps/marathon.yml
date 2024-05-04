@@ -118337,6 +118337,28 @@ entities:
     - type: Transform
       pos: -15.5,-21.5
       parent: 30
+- proto: SpawnPointSeniorPhysician
+  entities:
+  - uid: 50000
+    components:
+    - type: Transform
+      pos: -14.5,-21.5
+      parent: 30
+  - uid: 50001
+    components:
+    - type: Transform
+      pos: -17.5,-21.5
+      parent: 30
+  - uid: 50002
+    components:
+    - type: Transform
+      pos: -16.5,-21.5
+      parent: 30
+  - uid: 50003
+    components:
+    - type: Transform
+      pos: -15.5,-21.5
+      parent: 30
 - proto: SpawnPointMime
   entities:
   - uid: 670
@@ -118428,6 +118450,23 @@ entities:
     - type: Transform
       pos: 21.5,10.5
       parent: 30
+- proto: SpawnPointSeniorResearcher
+  entities:
+  - uid: 50004
+    components:
+    - type: Transform
+      pos: 21.5,11.5
+      parent: 30
+  - uid: 50005
+    components:
+    - type: Transform
+      pos: 22.5,8.5
+      parent: 30
+  - uid: 50006
+    components:
+    - type: Transform
+      pos: 21.5,10.5
+      parent: 30
 - proto: SpawnPointResearchDirector
   entities:
   - uid: 14353
@@ -118487,6 +118526,28 @@ entities:
       pos: -32.5,57.5
       parent: 30
   - uid: 20892
+    components:
+    - type: Transform
+      pos: -33.5,57.5
+      parent: 30
+- proto: SpawnPointSeniorOfficer
+  entities:
+  - uid: 50011
+    components:
+    - type: Transform
+      pos: -31.5,57.5
+      parent: 30
+  - uid: 50012
+    components:
+    - type: Transform
+      pos: -34.5,57.5
+      parent: 30
+  - uid: 50013
+    components:
+    - type: Transform
+      pos: -32.5,57.5
+      parent: 30
+  - uid: 50014
     components:
     - type: Transform
       pos: -33.5,57.5
@@ -118565,6 +118626,28 @@ entities:
       pos: -22.5,-42.5
       parent: 30
   - uid: 20886
+    components:
+    - type: Transform
+      pos: -22.5,-41.5
+      parent: 30
+- proto: SpawnPointSeniorEngineer
+  entities:
+  - uid: 50007
+    components:
+    - type: Transform
+      pos: -21.5,-42.5
+      parent: 30
+  - uid: 50008
+    components:
+    - type: Transform
+      pos: -21.5,-41.5
+      parent: 30
+  - uid: 50009
+    components:
+    - type: Transform
+      pos: -22.5,-42.5
+      parent: 30
+  - uid: 50010
     components:
     - type: Transform
       pos: -22.5,-41.5

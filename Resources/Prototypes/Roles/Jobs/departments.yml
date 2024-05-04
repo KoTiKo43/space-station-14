@@ -58,6 +58,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - SeniorEngineer
 
 - type: department
   id: Medical
@@ -70,6 +71,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  - SeniorPhysician
 
 - type: department
   id: Security
@@ -83,6 +85,7 @@
   - Pilot # Corvax-Pilot
   - Detective
   - Warden
+  - SeniorOfficer
 
 - type: department
   id: Science
@@ -92,6 +95,7 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  - SeniorResearcher
 
 - type: department
   id: Specific

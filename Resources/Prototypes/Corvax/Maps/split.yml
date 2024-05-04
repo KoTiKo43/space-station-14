@@ -41,6 +41,7 @@
             Musician: [ 1, 1 ]
             Reporter: [ 1, 1 ]
             Zookeeper: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
             IAA: [ 1, 1 ]
@@ -63,6 +64,11 @@
             # cargo
             SalvageSpecialist: [ 1, 1 ]
             CargoTechnician: [ 3, 3 ]
+            #seniors
+            SeniorPhysician: [ 1, 1 ]
+            SeniorResearcher: [ 1, 1 ]
+            SeniorEngineer: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]
     Payback:
       stationProto: NanotrasenStationNoArrivals
       components:
@@ -99,6 +105,7 @@
             Mime: [ 1, 1 ]
             Chaplain: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
             IAA: [ 1, 1 ]
@@ -118,6 +125,11 @@
             # cargo
             SalvageSpecialist: [ 1, 1 ]
             CargoTechnician: [ 2, 3 ]
+            #seniors
+            SeniorPhysician: [ 1, 1 ]
+            SeniorResearcher: [ 1, 1 ]
+            SeniorEngineer: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]
     Lumber:
       stationProto: NanotrasenStationNoArrivals
       components:
@@ -157,6 +169,7 @@
             Mime: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
             IAA: [ 1, 1 ]
@@ -176,3 +189,8 @@
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 3, 4 ]
+            #seniors
+            SeniorPhysician: [ 1, 1 ]
+            SeniorResearcher: [ 1, 1 ]
+            SeniorEngineer: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]

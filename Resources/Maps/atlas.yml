@@ -43142,6 +43142,13 @@ entities:
     - type: Transform
       pos: 9.5,-11.5
       parent: 30
+- proto: SpawnPointSeniorPhysician
+  entities:
+  - uid: 50004
+    components:
+    - type: Transform
+      pos: 9.5,-11.5
+      parent: 30
 - proto: SpawnPointMime
   entities:
   - uid: 1582
@@ -43194,6 +43201,13 @@ entities:
     - type: Transform
       pos: -23.5,-13.5
       parent: 30
+- proto: SpawnPointSeniorResearcher
+  entities:
+  - uid: 50003
+    components:
+    - type: Transform
+      pos: -23.5,-13.5
+      parent: 30
 - proto: SpawnPointResearchDirector
   entities:
   - uid: 4706
@@ -43233,6 +43247,13 @@ entities:
 - proto: SpawnPointSecurityCadet
   entities:
   - uid: 7406
+    components:
+    - type: Transform
+      pos: 13.5,15.5
+      parent: 30
+- proto: SpawnPointSeniorOfficer
+  entities:
+  - uid: 50005
     components:
     - type: Transform
       pos: 13.5,15.5
@@ -43278,6 +43299,20 @@ entities:
 - proto: SpawnPointWarden
   entities:
   - uid: 1620
+    components:
+    - type: Transform
+      pos: 11.5,13.5
+      parent: 30
+- proto: SpawnPointSeniorEngineer
+  entities:
+  - uid: 50001
+    components:
+    - type: Transform
+      pos: -35.5,9.5
+      parent: 30
+- proto: SpawnPointWarden
+  entities:
+  - uid: 50002
     components:
     - type: Transform
       pos: 11.5,13.5

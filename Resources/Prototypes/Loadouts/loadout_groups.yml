@@ -622,6 +622,14 @@
   - StationEngineerHardhatYellow
   - StationEngineerHardhatOrange
   - StationEngineerHardhatRed
+
+- type: loadoutGroup
+  id: SeniorEngineerHead
+  name: Бригадир, голова
+  loadouts:
+  - StationEngineerHardhatYellow
+  - StationEngineerHardhatOrange
+  - StationEngineerHardhatRed
   - SeniorEngineerBeret
 
 - type: loadoutGroup
@@ -631,6 +639,11 @@
   - StationEngineerJumpsuit
   - StationEngineerJumpskirt
   - StationEngineerHazardsuit
+
+- type: loadoutGroup
+  id: SeniorEngineerJumpsuit
+  name: Бригадир, комбинезон
+  loadouts:
   - SeniorEngineerJumpsuit
   - SeniorEngineerJumpskirt
 
@@ -662,6 +675,11 @@
   name: loadout-group-station-engineer-id
   loadouts:
   - StationEngineerPDA
+
+- type: loadoutGroup
+  id: SeniorEngineerID
+  name: Бригадир, ID
+  loadouts:
   - SeniorEngineerPDA
 
 - type: loadoutGroup
@@ -747,6 +765,12 @@
   loadouts:
   - RoboticistCap
   - SkullBandana
+
+- type: loadoutGroup
+  id: SeniorResearcherHead
+  name: Ведущий учёный, голова
+  minLimit: 0
+  loadouts:
   - ScientificBeret
 
 - type: loadoutGroup
@@ -764,6 +788,11 @@
   - ScientistJumpskirt
   - RoboticistJumpsuit
   - RoboticistJumpskirt
+
+- type: loadoutGroup
+  id: SeniorResearcherJumpsuit
+  name: Ведущий учёный, комбинезон
+  loadouts:
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
 
@@ -778,6 +807,17 @@
 - type: loadoutGroup
   id: ScientistOuterClothing
   name: loadout-group-scientist-outerclothing
+  minLimit: 0
+  loadouts:
+  - RegularLabCoat
+  - ScienceLabCoat
+  - ScienceWintercoat
+  - RoboticistLabCoat
+  - RoboticistWintercoat
+
+- type: loadoutGroup
+  id: SeniorResearcherOuterClothing
+  name: Ведущий учёный, верхняя одежда
   minLimit: 0
   loadouts:
   - RegularLabCoat
@@ -801,6 +841,14 @@
   minLimit: 0
   loadouts:
   - LatexGloves
+  - RobohandsGloves
+
+- type: loadoutGroup
+  id: SeniorResearcherGloves
+  name: Ведущий учёный, перчатки
+  minLimit: 0
+  loadouts:
+  - LatexGloves
   - PurpleGloves
   - RobohandsGloves
 
@@ -809,6 +857,11 @@
   name: loadout-group-scientist-id
   loadouts:
   - ScientistPDA
+
+- type: loadoutGroup
+  id: SeniorResearcherPDA
+  name: Ведущий учёный, ID
+  loadouts:
   - SeniorResearcherPDA
 
 - type: loadoutGroup
@@ -876,6 +929,26 @@
   - WardenArmoredWinterCoat
 
 - type: loadoutGroup
+  id: PilotJumpsuit
+  name: Пилот, комбинезон
+  loadouts:
+  - SeniorOfficerJumpsuit
+  - SeniorOfficerJumpskirt
+
+- type: loadoutGroup
+  id: PilotPDA
+  name: Пилот, ID
+  loadouts:
+  - PilotPDA
+
+- type: loadoutGroup
+  id: PilotNeck
+  name: Пилот, шея
+  minLimit: 0
+  loadouts:
+  - RedTie
+
+- type: loadoutGroup
   id: SecurityHead
   name: loadout-group-security-head
   minLimit: 0
@@ -892,6 +965,11 @@
   - SecurityJumpskirt
   - SecurityJumpsuitGrey
   - SecurityJumpskirtGrey
+
+- type: loadoutGroup
+  id: SeniorOfficerJumpsuit
+  name: Инструктор СБ, комбинезон
+  loadouts:
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
 
@@ -931,6 +1009,11 @@
   name: loadout-group-security-id
   loadouts:
   - SecurityPDA
+
+- type: loadoutGroup
+  id: SeniorOfficerPDA
+  name: Инструктор СБ, ID
+  loadouts:
   - SeniorOfficerPDA
 
 - type: loadoutGroup
@@ -1032,11 +1115,18 @@
   minLimit: 0
   loadouts:
   - MedicalBeret
-  - SeniorPhysicianBeret
   - BlueSurgeryCap
   - GreenSurgeryCap
   - PurpleSurgeryCap
   - NurseHat
+
+- type: loadoutGroup
+  id: SeniorPhysicianHead
+  name: Ведущий врач, голова
+  minLimit: 0
+  loadouts:
+  - SeniorPhysicianBeret
+  - MedicalBeret
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
@@ -1051,8 +1141,23 @@
   - MedicalPurpleScrubs
 
 - type: loadoutGroup
+  id: SeniorPhysicianJumpsuit
+  name: Ведущий врач, комбинезон
+  loadouts:
+  - SeniorPhysicianJumpsuit
+  - SeniorPhysicianJumpskirt
+
+- type: loadoutGroup
   id: MedicalDoctorOuterClothing
   name: loadout-group-medical-doctor-outerclothing
+  minLimit: 0
+  loadouts:
+  - RegularLabCoat
+  - MedicalDoctorWintercoat
+
+- type: loadoutGroup
+  id: SeniorPhysicianOuterClothing
+  name: Ведущий врач, верхняя одежда
   minLimit: 0
   loadouts:
   - RegularLabCoat
@@ -1079,6 +1184,12 @@
   name: loadout-group-medical-doctor-id
   loadouts:
   - MedicalDoctorPDA
+  - SeniorPhysicianPDA
+
+- type: loadoutGroup
+  id: SeniorPhysicianPDA
+  name: Ведущий врач, ID
+  loadouts:
   - SeniorPhysicianPDA
 
 - type: loadoutGroup

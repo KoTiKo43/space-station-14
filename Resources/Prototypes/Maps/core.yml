@@ -66,3 +66,8 @@
             Musician: [ 1, 1 ]
             Boxer: [ 2, 2 ]
             Reporter: [ 2, 2 ]
+            #seniors
+            SeniorPhysician: [ 1, 1 ]
+            SeniorResearcher: [ 1, 1 ]
+            SeniorEngineer: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]

@@ -58025,6 +58025,18 @@ entities:
     - type: Transform
       pos: 22.5,-5.5
       parent: 31
+- proto: SpawnPointSeniorPhysician
+  entities:
+  - uid: 50000
+    components:
+    - type: Transform
+      pos: 23.5,-5.5
+      parent: 31
+  - uid: 50001
+    components:
+    - type: Transform
+      pos: 22.5,-5.5
+      parent: 31
 - proto: SpawnPointMime
   entities:
   - uid: 7832
@@ -58094,6 +58106,18 @@ entities:
     - type: Transform
       pos: -8.5,-19.5
       parent: 31
+- proto: SpawnPointSeniorResearcher
+  entities:
+  - uid: 50002
+    components:
+    - type: Transform
+      pos: -9.5,-19.5
+      parent: 31
+  - uid: 50003
+    components:
+    - type: Transform
+      pos: -8.5,-19.5
+      parent: 31
 - proto: SpawnPointResearchDirector
   entities:
   - uid: 3385
@@ -58143,6 +58167,18 @@ entities:
       pos: -13.5,16.5
       parent: 31
   - uid: 10446
+    components:
+    - type: Transform
+      pos: -12.5,16.5
+      parent: 31
+- proto: SpawnPointSeniorOfficer
+  entities:
+  - uid: 50004
+    components:
+    - type: Transform
+      pos: -13.5,16.5
+      parent: 31
+  - uid: 50005
     components:
     - type: Transform
       pos: -12.5,16.5
@@ -58201,6 +58237,18 @@ entities:
       pos: 32.5,-0.5
       parent: 31
   - uid: 9104
+    components:
+    - type: Transform
+      pos: 33.5,-0.5
+      parent: 31
+- proto: SpawnPointSeniorEngineer
+  entities:
+  - uid: 50006
+    components:
+    - type: Transform
+      pos: 32.5,-0.5
+      parent: 31
+  - uid: 50007
     components:
     - type: Transform
       pos: 33.5,-0.5

@@ -63,6 +63,7 @@
             Musician: [ 1, 1 ]
             Reporter: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
+            Lawyer: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
             IAA: [ 1, 1 ]
@@ -93,3 +94,8 @@
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 3, 3 ]
+            #seniors
+            SeniorPhysician: [ 1, 1 ]
+            SeniorResearcher: [ 1, 1 ]
+            SeniorEngineer: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]
