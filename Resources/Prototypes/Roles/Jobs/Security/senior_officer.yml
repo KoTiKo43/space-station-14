@@ -1,0 +1,33 @@
+- type: job
+  id: SeniorOfficer
+  name: инструктор СБ
+  description: Обучайте кадетов основам обыска и задержания, срокам заключения и правильному обращению с оружием
+  playTimeTracker: JobSeniorOfficer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobDetective
+      time: 14400 #4 hrs
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 43200 #12 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 72000 # 20 hrs
+  startingGear: SeniorOfficerGear
+  icon: "JobIconSeniorOfficer"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+
+- type: startingGear
+  id: SeniorOfficerGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58

@@ -1,0 +1,28 @@
+- type: job
+  id: SeniorPhysician
+  name: ведущий врач
+  description: Обучайте интернов основам оказания помощи раненым, химии, диагностике больных и утилизации трупов.
+  playTimeTracker: JobSeniorPhysician
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobChemist
+      time: 18000 #5 hrs
+    - !type:RoleTimeRequirement
+      role: JobMedicalDoctor
+      time: 36000 #10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 72000 #20 hrs # Corvax-RoleTime
+  startingGear: SeniorPhysicianGear
+  icon: "JobIconSeniorPhysician"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  - Chemistry
+
+- type: startingGear
+  id: SeniorPhysicianGear
+  equipment:
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled

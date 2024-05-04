@@ -1,0 +1,23 @@
+- type: job
+  id: SeniorResearcher
+  name: ведущий учёный
+  description: Обучайте новых учёных основам печати предметов, сборки боргов, исследования артефактов и аномальных объектов.
+  playTimeTracker: JobSeniorResearcher
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 90000 #25 hrs
+    - !type:RoleTimeRequirement
+      role: JobScientist
+      time: 54000 #15 hrs
+  startingGear: SeniorResearcherGear
+  icon: "JobIconSeniorResearcher"
+  supervisors: job-supervisors-rd
+  access:
+  - Research
+  - Maintenance
+
+- type: startingGear
+  id: SeniorResearcherGear
+  equipment:
+    ears: ClothingHeadsetScience

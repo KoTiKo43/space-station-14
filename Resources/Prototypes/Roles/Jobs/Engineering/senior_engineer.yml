@@ -1,0 +1,31 @@
+- type: job
+  id: SeniorEngineer
+  name: бригадир
+  description: Обучайте технических ассистентов основам работы силовых установок, ремонту, атмосферике и энергоснабжению станции.
+  playTimeTracker: JobSeniorEngineer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobAtmosphericTechnician
+      time: 21600 #6 hrs
+    - !type:RoleTimeRequirement
+      role: JobStationEngineer
+      time: 54000 #15 hrs
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 90000 #25 hrs
+  startingGear: SeniorEngineerGear
+  icon: "JobIconSeniorEngineer"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: SeniorEngineerGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+    id: SeniorEngineerPDA
