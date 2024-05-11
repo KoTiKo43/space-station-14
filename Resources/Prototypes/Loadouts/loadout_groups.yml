@@ -6,6 +6,14 @@
   maxLimit: 3
   loadouts:
   - PlushieLizard
+  - PlushieSpaceLizard
+  - Lighter
+  - CigPackGreen
+  - CigPackRed
+  - CigPackBlue
+  - CigPackBlack
+  - CigarCase
+  - CigarGold
   - ClothingNeckLGBTPin
   - ClothingNeckAromanticPin
   - ClothingNeckAsexualPin
@@ -17,7 +25,7 @@
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
-  
+
 - type: loadoutGroup
   id: Glasses
   name: loadout-group-glasses
@@ -26,7 +34,7 @@
   - Glasses
   - GlassesJamjar
   - GlassesJensen
-  
+
 # Command
 - type: loadoutGroup
   id: CaptainHead
@@ -1070,6 +1078,7 @@
   minLimit: 0
   loadouts:
   - ChiefMedicalOfficerBeret
+  - CMOMedicalHeadMirror
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJumpsuit
@@ -1077,6 +1086,8 @@
   loadouts:
   - ChiefMedicalOfficerJumpsuit
   - ChiefMedicalOfficerJumpskirt
+  - ChiefMedicalOfficerTurtleneckJumpsuit
+  - ChiefMedicalOfficerTurtleneckJumpskirt
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -1115,6 +1126,11 @@
   minLimit: 0
   loadouts:
   - MedicalBeret
+<<<<<<< HEAD
+=======
+  - SeniorPhysicianBeret
+  - MedicalHeadMirror
+>>>>>>> dc6f667e1817af3b05dbfae1f77d31365a34e564
   - BlueSurgeryCap
   - GreenSurgeryCap
   - PurpleSurgeryCap
