@@ -178,7 +178,7 @@
   targetNode: pipe
   category: construction-category-utilities
   placementMode: SnapgridCenter
-  canBuildInImpassable: false
+  canBuildInImpassable: true
   icon:
     sprite: Structures/Piping/disposal.rsi
     state: conpipe-s

@@ -28,4 +28,4 @@
   - type: SpaceGarbage
   - type: WelderRefinable
     refineResult:
-    - id: SheetGlass1
+    - SheetGlass1

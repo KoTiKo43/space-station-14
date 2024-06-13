@@ -8,7 +8,6 @@
   - CaptainBackpack
   - CaptainOuterClothing
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -20,7 +19,6 @@
   - HoPOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 # Civilian
 - type: roleLoadout
@@ -34,7 +32,6 @@
   - PassengerShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobBartender
@@ -45,7 +42,6 @@
   - BartenderOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -54,7 +50,6 @@
   - CommonBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobChef
@@ -66,7 +61,6 @@
   - ChefOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobLibrarian
@@ -75,7 +69,6 @@
   - CommonBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobLawyer
@@ -85,7 +78,6 @@
   - LawyerBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobChaplain
@@ -98,7 +90,6 @@
   - ChaplainOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobJanitor
@@ -110,7 +101,6 @@
   - JanitorOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobBotanist
@@ -121,7 +111,6 @@
   - BotanistOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobClown
@@ -133,7 +122,6 @@
   - ClownShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobMime
@@ -145,7 +133,6 @@
   - MimeOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobMusician
@@ -154,7 +141,6 @@
   - MusicianOuterClothing
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 # Cargo
 - type: roleLoadout
@@ -168,7 +154,6 @@
   - QuartermasterShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -180,7 +165,6 @@
   - CargoTechnicianShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobSalvageSpecialist
@@ -190,7 +174,6 @@
   - SalvageSpecialistShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 # Engineering
 - type: roleLoadout
@@ -203,7 +186,6 @@
   - ChiefEngineerOuterClothing
   - ChiefEngineerShoes
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -211,7 +193,6 @@
   - TechnicalAssistantJumpsuit
   - StationEngineerBackpack
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobStationEngineer
@@ -223,7 +204,6 @@
   - StationEngineerShoes
   - StationEngineerID
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobSeniorEngineer
@@ -244,7 +224,6 @@
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 # Science
 - type: roleLoadout
@@ -259,7 +238,6 @@
   - ResearchDirectorShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobScientist
@@ -274,7 +252,6 @@
   - ScientistPDA
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobSeniorResearcher
@@ -297,7 +274,6 @@
   - ScientistBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 # Security
 - type: roleLoadout
@@ -311,7 +287,6 @@
   - HeadofSecurityOuterClothing
   - SecurityShoes
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobWarden
@@ -323,7 +298,6 @@
   - WardenOuterClothing
   - SecurityShoes
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -336,7 +310,6 @@
   - SecurityPDA
   - SecurityBelt
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobSeniorOfficer
@@ -360,7 +333,6 @@
   - DetectiveOuterClothing
   - SecurityShoes
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -368,7 +340,6 @@
   - SecurityCadetJumpsuit
   - SecurityBackpack
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 # Medical
 - type: roleLoadout
@@ -384,7 +355,6 @@
   - ChiefMedicalOfficerShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobMedicalDoctor
@@ -399,7 +369,6 @@
   - MedicalDoctorPDA
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobSeniorPhysician
@@ -422,7 +391,6 @@
   - MedicalBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobChemist
@@ -434,7 +402,6 @@
   - ChemistOuterClothing
   - MedicalShoes
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobParamedic
@@ -448,7 +415,6 @@
   - ParamedicShoes
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 # Wildcards
 - type: roleLoadout
@@ -457,7 +423,6 @@
   - CommonBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobReporter
@@ -466,7 +431,6 @@
   - CommonBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobPsychologist
@@ -474,7 +438,6 @@
   - PsychologistBackpack # Corvax-MRP
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobBoxer
@@ -484,4 +447,3 @@
   - CommonBackpack
   - Glasses
   - Trinkets
-  - Inventory # Corvax-Loadouts

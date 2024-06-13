@@ -302,9 +302,6 @@
       - dough
   - type: Sprite
     state: dough-slice
-  - type: Tag
-    tags:
-    - Slice
 
 - type: entity
   name: cornmeal dough
@@ -334,9 +331,6 @@
       - dough
   - type: Sprite
     state: cornmealdough-slice
-  - type: Tag
-    tags:
-    - Slice
 
 - type: entity
   name: tortilla dough
@@ -369,9 +363,6 @@
   - type: Construction
     graph: Tortilla
     node: start
-  - type: Tag
-    tags:
-    - Slice
 
 - type: entity
   name: flattened tortilla dough
@@ -512,9 +503,6 @@
         reagents:
         - ReagentId: Nutriment
           Quantity: 5
-  - type: Tag
-    tags:
-    - Slice
 
 - type: entity
   name: chèvre log
@@ -562,9 +550,6 @@
           Quantity: 1
         - ReagentId: Vitamin
           Quantity: 0.2
-  - type: Tag
-    tags:
-    - Slice
 
 - type: entity
   name: tofu
@@ -610,9 +595,6 @@
           Quantity: 3
         - ReagentId: Nutriment
           Quantity: 2
-  - type: Tag
-    tags:
-    - Slice
 
 - type: entity
   name: burned mess

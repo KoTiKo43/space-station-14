@@ -15,8 +15,6 @@
   sprites:
     - sprite: Corvax/Mobs/Customization/vulpkanin.rsi
       state: vulp_tail
-    - sprite: Corvax/Mobs/Customization/vulpkanin.rsi
-      state: vulp_tail_inner
 
 - type: marking
   id: FoxEar
@@ -57,26 +55,3 @@
   sprites:
     - sprite: Corvax/Mobs/Customization/vulpkanin.rsi
       state: vulp_face
-
-# Animated
-- type: marking
-  id: FoxTailAnimated
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: []
-  sprites:
-    - sprite: Corvax/Mobs/Customization/vulpkanin.rsi
-      state: tail_fox_waggin
-    - sprite: Corvax/Mobs/Customization/vulpkanin.rsi
-      state: tail_fox_inner_waggin
-
-- type: marking
-  id: WolfTailAnimated
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: []
-  sprites:
-    - sprite: Corvax/Mobs/Customization/vulpkanin.rsi
-      state: tail_wolf_waggin
-    - sprite: Corvax/Mobs/Customization/vulpkanin.rsi
-      state: tail_wolf_inner_waggin

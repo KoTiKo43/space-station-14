@@ -5,7 +5,6 @@
   - LawyerJumpsuit
   - CommonBackpack
   - Trinkets
-<<<<<<< HEAD
 
 - type: roleLoadout
   id: JobPilot
@@ -19,6 +18,3 @@
   - PilotPDA
   - SecurityBelt
   - Trinkets
-=======
-  - Inventory # Corvax-Loadouts
->>>>>>> b931dae507f0c52cb481145f9ce4bc7f15da2fa4

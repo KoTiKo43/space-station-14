@@ -64,25 +64,17 @@
     roundEndDelay: 10
 
 - type: entity
-  abstract: true
+  id: Nukeops
   parent: BaseGameRule
-  id: BaseNukeopsRule
+  noSpawn: true
   components:
+  - type: GameRule
+    minPlayers: 20
   - type: RandomMetadata #this generates the random operation name cuz it's cool.
     nameSegments:
     - operationPrefix
     - operationSuffix
   - type: NukeopsRule
-  - type: AntagSelection
-  - type: AntagLoadProfileRule
-
-- type: entity
-  noSpawn: true
-  parent: BaseNukeopsRule
-  id: Nukeops
-  components:
-  - type: GameRule
-    minPlayers: 20
   - type: LoadMapRule
     gameMap: NukieOutpost
   - type: AntagSelection
@@ -90,7 +82,8 @@
     definitions:
     - prefRoles: [ NukeopsCommander ]
       fallbackRoles: [ Nukeops, NukeopsMedic ]
-      spawnerPrototype: SpawnPointNukeopsCommander
+      max: 1
+      playerRatio: 10
       startingGear: SyndicateCommanderGearFull
       components:
       - type: NukeOperative
@@ -106,7 +99,8 @@
         prototype: NukeopsCommander
     - prefRoles: [ NukeopsMedic ]
       fallbackRoles: [ Nukeops, NukeopsCommander ]
-      spawnerPrototype: SpawnPointNukeopsMedic
+      max: 1
+      playerRatio: 10
       startingGear: SyndicateOperativeMedicFull
       components:
       - type: NukeOperative
@@ -122,7 +116,7 @@
         prototype: NukeopsMedic
     - prefRoles: [ Nukeops ]
       fallbackRoles: [ NukeopsCommander, NukeopsMedic ]
-      spawnerPrototype: SpawnPointNukeopsOperative
+      min: 0
       max: 3
       playerRatio: 10
       startingGear: SyndicateOperativeGearFull
@@ -140,30 +134,16 @@
         prototype: Nukeops
 
 - type: entity
-  abstract: true
-  parent: BaseGameRule
-  id: BaseTraitorRule
-  components:
-  - type: TraitorRule
-  # TODO: codewords in yml
-  # TODO: uplink in yml
-  - type: AntagRandomObjectives
-    sets:
-    - groups: TraitorObjectiveGroups
-    maxDifficulty: 5
-  - type: AntagSelection
-    agentName: traitor-round-end-agent-name
-
-- type: entity
-  noSpawn: true
-  parent: BaseTraitorRule
   id: Traitor
+  parent: BaseGameRule
+  noSpawn: true
   components:
   - type: GameRule
     minPlayers: 5
     delay:
       min: 240
       max: 420
+  - type: TraitorRule
   - type: AntagSelection
     definitions:
     - prefRoles: [ Traitor ]

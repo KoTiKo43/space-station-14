@@ -11,15 +11,10 @@
   name: syndicate agent
   suffix: Human, Base
   components:
-    - type: RandomHumanoidAppearance
-      randomizeName: false
-      hair: HairBald
     - type: Loadout
       prototypes: [SyndicateOperativeGearExtremelyBasic]
     - type: RandomMetadata
-      nameSegments: # Corvax-MRP
-      - names_first_male
-      - names_last_male
+      nameSegments: [corvax_names_death_commando] # Corvax-Localization
     - type: NpcFactionMember
       factions:
       - Syndicate

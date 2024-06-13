@@ -1,11 +1,7 @@
 - type: species
   id: Vox
   name: species-name-vox
-<<<<<<< HEAD
-  roundStart: true # sad... NOT
-=======
-  roundStart: false # sad
->>>>>>> b931dae507f0c52cb481145f9ce4bc7f15da2fa4
+  roundStart: true # sad...
   prototype: MobVox
   sprites: MobVoxSprites
   markingLimits: MobVoxMarkingLimits

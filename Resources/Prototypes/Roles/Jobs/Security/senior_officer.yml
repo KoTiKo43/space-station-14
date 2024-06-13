@@ -16,7 +16,7 @@
   startingGear: SeniorOfficerGear
   icon: "JobIconSeniorOfficer"
   supervisors: job-supervisors-hos
-  canBeAntag: false
+  canBeAntag: true
   access:
   - Security
   - Brig

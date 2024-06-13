@@ -6,17 +6,18 @@
     requirement:
       !type:RoleTimeRequirement
       role: JobAtmosphericTechnician
-      time: 0 
+      time: 21600 #6 hrs # Corvax-RoleTime
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
       role: JobStationEngineer
-      time: 0 
+      time: 54000 #15 hrs # Corvax-RoleTime
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
       department: Engineering
-      time: 0 
+      time: 90000 #25 hrs # Corvax-RoleTime
+
 # Head
 - type: loadout
   id: StationEngineerHardhatYellow

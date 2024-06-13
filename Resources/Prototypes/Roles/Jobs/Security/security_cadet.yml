@@ -13,7 +13,7 @@
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
-  canBeAntag: false
+  canBeAntag: true
   access:
   - Security
   - Brig
@@ -31,4 +31,4 @@
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58
-    pocket2: HyperLinkBookCorporateLaw # Corvax-HyperLink
+    pocket2: BookSecurity

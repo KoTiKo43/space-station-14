@@ -131,8 +131,6 @@
     #Copies ClothingHeadHardsuitBase behavior
     equipSound: /Audio/Mecha/mechmove03.ogg
     unequipSound: /Audio/Mecha/mechmove03.ogg
-    equipDelay: 2
-    unequipDelay: 2
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -165,8 +163,6 @@
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
     coefficient: 0.1
-  - type: FireProtection
-    reduction: 0.2
   - type: Armor
     modifiers:
       coefficients:

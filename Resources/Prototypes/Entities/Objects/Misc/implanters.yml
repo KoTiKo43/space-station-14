@@ -500,7 +500,7 @@
 
 - type: entity
   id: MindShieldImplanter
-  name: mindshield implanter
+  name: mind-shield implanter
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
